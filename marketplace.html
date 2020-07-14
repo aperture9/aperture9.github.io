@@ -5,10 +5,43 @@ title: Marketplace
 
 
 <div class="container py-4 text-white">
-    <h1 class="text-center"> Full Marketplace Design Coming Soon </h1>
-    <h3 class="text-center"> Check out my Unreal Engine Marketplace items at: <a href="https://www.unrealengine.com/marketplace/en-US/profile/Aperture9" target="_blank" class="text-warning"> Unreal Marketplace </a></h3>
+    <h1 class="text-center"> Aperture9 Unreal Engine Marketplace </h1>
+    <h3 class="text-center"> <a href="https://www.unrealengine.com/marketplace/en-US/profile/Aperture9" target="_blank" class="text-warning"> Unreal Marketplace </a></h3>
 </div>
 
-<!-- spacer -->
-<div style="min-height: 500px">
+
+
+{% for item in site.data.marketplace_items %}
+      
+<div class="container py-2">
+    <!-- Hex Grids -->
+    <div class="card">
+        <h5 class="card-header"> {{ item.title }} </h5>
+        <div class="row">
+            <div class="col-auto">
+                <img class="px-2 py-2" src="{{item.thumb_img}}" alt="Hex Grids Thumbnail">
+            </div>
+        
+            <div class="col">
+                <div class="card-body">
+                    {{ item.description }}
+                    <a href= "{{item.store_link}}" target="_blank" class="btn btn-primary"> Store Page </a>
+
+                    {% if item.show_docs_link %}
+                    <a href="{{item.docs_link}}" class="btn btn-primary"> Documentation </a>
+                    {% endif %}
+                </div>
+            </div>
+        
+        <!-- End Row  -->
+        </div> 
     </div>
+</div>
+
+
+
+
+
+
+
+{% endfor %}

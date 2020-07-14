@@ -4,10 +4,10 @@
 - name: Tutorials
   link: /tutorials.html
   ext: false
-- name: Marketplace
+- name: Unreal Marketplace
   link: /marketplace.html
   ext: false
-- name: Portfolio
+- name: Developer Portfolio
   link: http://www.danielorchard.com
   ext: true
 - name: Vault
