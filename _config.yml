@@ -1,0 +1,6 @@
+environment: production
+sass:
+  sass_dir: assets/css
+  style: compressed
+# Server Config options
+livereload: true     # You no longer need to include --livereload
