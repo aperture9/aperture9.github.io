@@ -15,7 +15,9 @@ Hex Grids ships with pre-made blueprints and assets to get you up and running qu
 
 With these options enabled, you should be able to see a large list of folders in your content browsers folder list. Scroll down to the **HexGrids Content** folder, and select it. 
 
-`Handy Tip - Right Click that folder and choose "Add to Favourites" for easy future finding.`
+<div class="alert alert-success">
+    Tip - Right Click that folder and choose <b>"Add to Favourites"</b> for easy future finding.
+</div>
 
 Now you have access to the Hex Grids folder, you should open the HexGrids folder (the ExampleContent folder just holds Epic Assets). To get started head into the Maps folder, and take a look at some of the example maps. The maps contain:
 
