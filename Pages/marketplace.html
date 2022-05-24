@@ -10,34 +10,41 @@ title: Marketplace
         <h3 class="text-muted"> <a href="https://www.unrealengine.com/marketplace/en-US/profile/Aperture9" target="_blank" class=""> Unreal Marketplace </a></h3>
     </div>
 
+
 {% for item in site.data.marketplace_items %}
-      
-<div class="container py-2 px-0">
+<div class="container px-0 my-4 py-2"> 
+ 
+   <div class="card">
+     <div class="row no-gutters">
+   
+       <!-- Picture -->
+       <div class="col">
+         <img src="{{item.thumb_img}}" class="card-img" alt="...">
+         <ul class="list-unstyled d-flex">
+             <li class="w-100 me-1"> <a href="{{ item.store_link }}" class="w-100 btn btn-lg btn-primary my-1" target="_blank"> Store Page </a> </li>
 
-    <div class="card">
-        <h5 class="card-header"> {{ item.title }} </h5>
-        <div class="row">
-            <div class="col-auto">
-                <img class="px-2 py-2" src="{{item.thumb_img}}" alt="Hex Grids Thumbnail">
-            </div>
+             {% if item.show_docs_link %}
+             <li class="w-100 ms-1">  <a href="{{ item.docs_link }}" class="w-100 btn btn-lg btn-primary my-1" target="_blank"> Documentation </a> </li>
+             {% endif %}
+         </ul>
+         
         
-            <div class="col">
-                <div class="card-body">
-                    {{ item.description }}
-                    <a href= "{{item.store_link}}" target="_blank" class="btn btn-primary"> Store Page </a>
+       </div>
+       
+       <!-- Body -->
+       <div class="col-md-8">
+         <div class="d-flex flex-column">
+           <h5 class="card-title"> {{ item.title }} </h5>
+           <p class="card-text"> {{ item.description }} </p>
+         </div>
+       </div>
+   
+     </div> <!--Close Row -->
+   </div>
+ </div>
+ {% endfor %}
 
-                    {% if item.show_docs_link %}
-                    <a href="{{item.docs_link}}" class="btn btn-primary"> Documentation </a>
-                    {% endif %}
-                </div>
-            </div>
-        
-        <!-- End Row  -->
-        </div> 
-    </div>
-</div>
 
 
-{% endfor %}
 
 </div> <!-- Master wrapper -->

@@ -7,10 +7,12 @@ title: Hex Grids
 <div class="container bg-white py-4">
 
     <h1 class="py-2 text-center"> Hex Grids Documentation </h1>
-    <div class="container mx-auto" style="width: 560px;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/vfxx1rwJBGo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p> Quick Start Video Guide</p>
+
+    <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/vfxx1rwJBGo" title="Hex Grids Quick Start" allowfullscreen> </iframe>
     </div>
+
+    <hr>
 
     {% capture Docs %}{% include HexGridsDocs.md %}{% endcapture %} 
     {{ Docs | markdownify }}
