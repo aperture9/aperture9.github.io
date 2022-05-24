@@ -5,8 +5,8 @@
                   If you want to build a complex and powerful gameplay grid, you’re covered too, the plugin provides a solid framework to build complex setups. </p>
   store_link: https://www.unrealengine.com/marketplace/en-US/product/05e7a0e674824987abbd98905aab2cfd
   show_docs_link: true
-  docs_link:  Docs/HexGrids.html
-  thumb_img: assets/images/HexGrids.png
+  docs_link:  /Pages/Docs/HexGrids.html
+  thumb_img: /assets/images/HexGrids.png
 
 - title: Spline Sweeper
   description:  <p> The sweep component allows you to quickly generate spline meshes to sweep the given spline. Its not meant to be a complex system for special game logic, rather this is for when you just want to mesh a spline quickly and without effort. </p>
@@ -14,8 +14,8 @@
                 <p> This pack comes with a set of profiles to sweep, but you can add your own easily, they are just 1cm2 meshes with a number of subdivisions to increase smoothness during deformation. </p>
   store_link: https://www.unrealengine.com/marketplace/en-US/product/4841d1af3b0c49c3a56fdbd343d86b93
   show_docs_link: true
-  docs_link:  Docs/SplineSweeper.html
-  thumb_img: assets/images/SplineSweeper.jpg
+  docs_link:  /Pages/Docs/SplineSweeper.html
+  thumb_img: /assets/images/SplineSweeper.jpg
 
 - title: In Game Log Display
   description:    <p> If your like me, you love developing in VR, but really dislike having to take the headset off to check the log, or squinting at the in-game console, this may be the plugin for you. In response to this frustration, here is the VR Log. <p>
@@ -23,22 +23,22 @@
                   <p> The log supports the system log, and blueprint messages. There's no special nodes required, no changes to your workflow, just use print strings as normal. This plugin taps directly into the GLog and pipes the output to blueprints. </p>
   store_link: https://www.unrealengine.com/marketplace/en-US/product/9b2ee798b6a743a3898512e54f119c38
   show_docs_link: true
-  docs_link:  Docs/InGameLog.html
-  thumb_img: assets/images/GameLog.png
+  docs_link:  /Pages/Docs/InGameLog.html
+  thumb_img: /assets/images/GameLog.png
 
 - title: Python Scripts Collection Menu
   description:    <p> This plugin adds a scripts drop down menu to the unreal editor, allowing you to execute previously made python scripts from one place without having to manually find them each time or relying on the scripts history to still remember your scripts. </p>
   store_link: https://www.unrealengine.com/marketplace/en-US/product/cb9d23f6654749c3b1f007f93d50ebb8
   show_docs_link: true
-  docs_link:  Docs/PythonScriptsCollection.html
-  thumb_img: assets/images/ScriptsCollection.png
+  docs_link:  /Pages/Docs/PythonScriptsCollection.html
+  thumb_img: /assets/images/ScriptsCollection.png
 
 - title: Sacks (Asset Pack)
   description:    <p> This pack contains 4 physically accurate burlap sacks, originally created with a cloth simulation to achieve a fully realistic look and baked down to a static mesh for performance. </p>
   store_link: https://www.unrealengine.com/marketplace/en-US/product/af680e0ccb6149ca8877d09fe585ec68
   show_docs_link: false
   docs_link:  
-  thumb_img: assets/images/Sacks.png
+  thumb_img: /assets/images/Sacks.png
 
 - title: Dynamic Switching PS4/Xbox/PC Icon Pack - 110 Light Themed Icons
   description:    <p> A set of PC, Xbox One and PS4 Icons in a minimalist Light Theme. Icons are 128px. </p>
@@ -46,8 +46,8 @@
                     So it will quickly jump between Xbox and keyboard when on a PC, and on a console can detect between PS4 or Xbox, and the framework is easily expandable to add other consoles. </p>
   store_link: https://www.unrealengine.com/marketplace/en-US/product/df28f544b4644a60b08729921d3ca5bf
   show_docs_link: true
-  docs_link:  Docs/IconPack.html
-  thumb_img: assets/images/IconPack.png
+  docs_link:  /Pages/Docs/IconPack.html
+  thumb_img: /assets/images/IconPack.png
 
 - title: Ultimate RTS Camera
   description:    <p> The Ultimate RTS Camera is a full featured camera system for RTS style games. It supports dynamic detection between keyboard and gamepad, with fully support for each. </p> 
@@ -55,5 +55,5 @@
                   <p> The system stems from a character and is fully replicated. The focus for this project was smooth clean movements, with nice interpolations between any input or jumps. </p>
   store_link: https://www.unrealengine.com/marketplace/en-US/product/ae03a0fb7c5940a690cd477adfd65da9
   show_docs_link: true
-  docs_link:  Docs/RTSCamera.html
-  thumb_img: assets/images/RTSCamera.png
+  docs_link:  /Pages/Docs/RTSCamera.html
+  thumb_img: /assets/images/RTSCamera.png

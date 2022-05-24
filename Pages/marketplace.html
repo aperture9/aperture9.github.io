@@ -3,18 +3,17 @@ layout: default
 title: Marketplace
 ---
 
+<div class="container py-3 px-0">
 
-<div class="container py-4 text-white">
-    <h1 class="text-center"> Aperture9 Unreal Engine Marketplace </h1>
-    <h3 class="text-center"> <a href="https://www.unrealengine.com/marketplace/en-US/profile/Aperture9" target="_blank" class="text-warning"> Unreal Marketplace </a></h3>
-</div>
-
-
+    <div class="text-white">
+        <h1 class="text-muted"> Aperture9 Unreal Engine Marketplace </h1>
+        <h3 class="text-muted"> <a href="https://www.unrealengine.com/marketplace/en-US/profile/Aperture9" target="_blank" class=""> Unreal Marketplace </a></h3>
+    </div>
 
 {% for item in site.data.marketplace_items %}
       
-<div class="container py-2">
-    <!-- Hex Grids -->
+<div class="container py-2 px-0">
+
     <div class="card">
         <h5 class="card-header"> {{ item.title }} </h5>
         <div class="row">
@@ -39,9 +38,6 @@ title: Marketplace
 </div>
 
 
-
-
-
-
-
 {% endfor %}
+
+</div> <!-- Master wrapper -->

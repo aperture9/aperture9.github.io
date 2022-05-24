@@ -1,0 +1,46 @@
+---
+layout: default
+title: Tutorials
+---
+
+<!-- Tutorials -->
+<div class="container py-3 px-0">
+
+
+
+  <div class="text-white">
+    <h1 class="text-muted"> Paid Tutorials </h1>
+    <h3 class="text-muted"> Lectures and Practicals for developing in Unreal Engine 4 </h3>
+  </div>
+
+
+
+  {% for item in site.data.tutorial_items %}
+ <div class="container py-3 px-0"> 
+  
+    <div class="card">
+      <div class="row no-gutters">
+    
+        <!-- Picture -->
+        <div class="col">
+          <img src="{{item.thumb_img}}" class="card-img" alt="...">
+          <a href="{{ item.link }}" class="w-100 btn btn-lg btn-primary my-1" target="_blank"> Purchase from Udemy </a>
+        </div>
+        
+        <!-- Body -->
+        <div class="col-md-8">
+          <div class="d-flex flex-column">
+            <h5 class="card-title"> {{ item.title }} </h5>
+            <p class="card-text"> {{ item.description }} </p>
+          </div>
+        </div>
+    
+      </div> <!--Close Row -->
+    </div>
+  </div>
+  {% endfor %}
+
+
+
+
+</div> <!-- Master wrapper -->

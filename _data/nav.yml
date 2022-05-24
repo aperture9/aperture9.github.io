@@ -2,10 +2,10 @@
   link: /
   ext: false
 - name: Tutorials
-  link: /tutorials.html
+  link: /Pages/tutorials.html
   ext: false
 - name: Unreal Marketplace
-  link: /marketplace.html
+  link: /Pages/marketplace.html
   ext: false
 - name: Developer Portfolio
   link: http://www.danielorchard.com

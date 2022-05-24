@@ -1,62 +1,12 @@
-body {
-    background: url(/assets/images/hex_bg.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-   
-    height: 100%;
+.block-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
 }
 
-
-
-
-
-/* all footer bits */
-.socialIcons {
-    display: flex;
-    flex-direction: row;
-
+.card {
+  border: none;
 }
 
-.fa {
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
-
-.fa-twitter {
-  /* background: #55ACEE; */
-  color: white;
-}
-
-.fa-linkedin {
-  /* background: #007bb5; */
-  color: white;
-}
-
-.fa-youtube {
-  /* background: #bb0000; */
-  color: white;
-}
-
-.fa-github {
-    /* background: #2d2d2e; */
-    color:white;
-}
-
-footer {
-  bottom: 0;
-  height: 40px;
-  margin-top:40px;
-  display: flex;
-  width: 100%;
-  min-height: $footer-min-height;
-  background-color: #ff880000;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-}

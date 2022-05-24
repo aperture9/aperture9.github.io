@@ -2,5 +2,24 @@ environment: production
 sass:
   sass_dir: assets/css
   style: compressed
+
 # Server Config options
 livereload: true     # You no longer need to include --livereload
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+  # SEO
+title: "Aperture 9 " # the name of your site, e.g. ACME Corp.
+tagline: "Aperture9 Website"
+email: legan3d@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+ Add description here
+author: Daniel Orchard
+url: "https://aperture9.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: DanielOrchard_0
+github_username: DanielOrchard
+
+#baseurl: "" # the subpath of your site, e.g. /blog
+#google_analytics: UA-111111111-1
